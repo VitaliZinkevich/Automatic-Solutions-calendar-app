@@ -1,0 +1,67 @@
+$base-font-text-size: 18px;
+$date-font-text-size: 24px;
+$week-days-text-size: 32px;
+$navigation-text-size: 40px;
+$hard-bold: 900;
+$medium-bold: 600;
+$td-color:#ebebeb;
+$week-days-color: #bababa;
+$nav-bar-color: #a1a1a1;
+$today-color: #87ffa5;
+
+.loading {
+    font-size: $navigation-text-size;
+}
+.today {
+    background-color: $today-color;
+}
+.nav-button {
+    cursor: pointer;
+}
+
+.calendar-navi {
+    display: flex;
+    font-size: $navigation-text-size;
+    background-color: $nav-bar-color;
+    justify-content: space-between;
+}
+
+.week-days {
+    font-size: $week-days-text-size;
+    font-weight: $hard-bold;
+    background-color: $week-days-color;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.date {
+    font-size: $date-font-text-size;
+    font-weight: $medium-bold;
+    margin: 5px 0 5px;
+}
+
+td.full{
+    background-color: $td-color;
+}
+
+.link {
+    flex: 0.6;
+}
+
+.event-info {
+    font-size: $base-font-text-size;
+    display: flex;
+    align-items: center;
+}
+
+.cell {
+    vertical-align: top;
+}
+
+.city {
+    margin-left: 5px;
+    flex: 0.4;
+}
